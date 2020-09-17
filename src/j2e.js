@@ -1,6 +1,5 @@
 const xlsx = require('xlsx');
 const fs = require('fs');
-const { SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION } = require('constants');
 
 let zh = [
   './src/config/zh.json',
