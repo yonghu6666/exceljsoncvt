@@ -4,8 +4,6 @@
   "description": "convert between excel and json",
   "main": "",
   "scripts": {
-    "e2j": "node ./src/e2j.js",
-    "j2e": "node ./src/j2e.js",
     "start": "npm run prod",
     "build": "npm-run-all clean transpile",
     "server": "node ./dist/app.js",
