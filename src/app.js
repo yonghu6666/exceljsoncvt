@@ -1,4 +1,4 @@
-import JsonToExcel from './j2e';
-import ExcelToJson from './e2j';
+const JsonToExcel = require('./j2e');
+const ExcelToJson = require('./e2j');
 
-let j2eObj = new JsonToExcel();
+// let j2eCvt = new JsonToExcel();

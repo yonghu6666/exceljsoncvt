@@ -1,4 +1,6 @@
 {
+  "netReconnectFailed": "Network reconnect failed",
+  "netReconnect": "Network is reconnecting&nbsp;&nbsp;&nbsp;",
   "unknownErr": "Unknown Error",
   "needReloginForKicked": "You are kicked.Please login again.",
   "hallServerCrashed": "Hall server has crashed",
@@ -8,7 +10,7 @@
   "enterServerFail":"enter platform server hall fail",
   "hallNotExist":"hall is not exist",
   "retryForNotExistHallVersion":"version or type of hall is not exist, please try again",
-  "getServerHallDataFail":"fetch hall data fail",
+  "getServerHallDataFail":"fetch hall data failed, please login again",
   "connectServerFail":"connect server fail",
   "connectionNotEstablished":"server connection is not established",
   "serverMsgUnnormal":"server message is unnoraml",

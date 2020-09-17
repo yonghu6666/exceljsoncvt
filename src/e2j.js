@@ -1,5 +1,7 @@
-export default class ExcelToJson {
+class ExcelToJson {
   constructor () {
 
   }
 }
+
+module.exports = ExcelToJson;
