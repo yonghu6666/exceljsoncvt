@@ -14,12 +14,12 @@ let sameSheet = true;
 class JsonToExcel {
   constructor () {
     this.init();
-    this.count = 0;
-    this.totalFileLen = zh.length + en.length;
-    this.sheetDataArr = [];
   }
 
   init () {
+    this.count = 0;
+    this.sheetDataArr = [];
+    this.totalFileLen = zh.length + en.length;
     this.readLanFiles(zh, 'zh');
     this.readLanFiles(en, 'en');
   }
